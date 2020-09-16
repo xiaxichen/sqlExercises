@@ -11,7 +11,7 @@ sql = """
         GROUP BY SId 
         HAVING AVG(score)> 60
         ) as r
-    where Student.sid = r.sid;
+    where Student.SId = r.SId;
 """
 
 
